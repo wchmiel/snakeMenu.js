@@ -120,7 +120,7 @@ Call the plugin function and set the css classes for your elements or use defaul
 </ul>
 <br>
 
-2. <b>mouseDelay</b> <br>- This value defines delay beetwen a cursor enter the snakeMenu container and the snakeBox is open. This way your snakeBox won't be open when user is on snakeMenu item for less than define time. 
+2. <b>mouseDelay</b> <br>- This value (time in milliseconds) defines delay beetwen a cursor enter the snakeMenu container and the snakeBox is open. This way your snakeBox won't be open when user is on snakeMenu item for less than define time. 
 <ul>
 	<li>Type: number</li>
 	<li>Default: 300 </li>
