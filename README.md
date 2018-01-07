@@ -15,7 +15,7 @@ Wrap your menu items (div, a, img, span, li etc.) with a container element (div,
 in the js snakeMenu cofig object:
 
         <ul class="snakeMenu">
-          <i class="snakeMenuItem" data-menuitem="1"><a href="#home">Home</a></li>
+          <li class="snakeMenuItem" data-menuitem="1"><a href="#home">Home</a></li>
           <li class="snakeMenuItem" data-menuitem="2"><a href="#about">About</a></li>
           <li class="snakeMenuItem" data-menuitem="3"><a href="#contact">Contact</a></li>
         </ul>
@@ -52,7 +52,7 @@ Call the plugin function and set the css classes for your elements or use defaul
 <h3>Documentation</h3>
 
 <h4>&bull; Classes</h4> 
-&nbsp;&nbsp;&nbsp;With the following options you can change every class the way you want: <br>
+&nbsp;&nbsp;&nbsp;With the following options you can change every class the way you want: <br><br>
 
 1. <b>menuCont</b> <br>- Css class for the snakeMenu container:
 <ul>
@@ -111,7 +111,7 @@ Call the plugin function and set the css classes for your elements or use defaul
 <br>
 
 <h4>&bull; Options</h4> 
-&nbsp;&nbsp;&nbsp;List including all options for the snakeMenu plugin: <br>
+&nbsp;&nbsp;&nbsp;List including all options for the snakeMenu plugin: <br><br>
 
 1. <b>destroySnakeRes</b> <br>- Under this resolution the snakeMenu is diabled. (Then you can make your own menu for mobile resolutions)
 <ul>
