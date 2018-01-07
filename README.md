@@ -1,4 +1,4 @@
-# SnakeMenu
+# SnakeMenu.js
 Simple jQuery plugin to make nice animated hover menu.
 
 <br>
@@ -113,7 +113,7 @@ Call the plugin function and set the css classes for your elements or use defaul
 <h4>&bull; Options</h4> 
 &nbsp;&nbsp;&nbsp;List including all options for the snakeMenu plugin: <br><br>
 
-1. <b>destroySnakeRes</b> <br>- Under this resolution the snakeMenu is diabled. (Then you can make your own menu for mobile resolutions)
+1. <b>destroySnakeRes</b> <br>- Under this resolution the snakeMenu is disabled. (Then you can make your own menu for mobile resolutions)
 <ul>
 	<li>Type: number</li>
 	<li>Default: 767 </li>
@@ -168,3 +168,9 @@ Call the plugin function and set the css classes for your elements or use defaul
 	<li>Default: jQuery fadeOut fn </li>
 </ul>
 <br>
+
+<br>
+<h3>Demo</h3>
+
+The sample of usege the snakeMenu.js plugin with Bootstrap navbar and animate.css animations is in the "demo" directory. You can play with it if you want ;)
+
