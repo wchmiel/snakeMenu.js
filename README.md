@@ -1,14 +1,15 @@
 # SnakeMenu
 Simple jQuery plugin to make nice animated hover menu.
 
-
-# Static HTML
+<br>
+<h3>Static HTML</h3>
 Put the script at the bottom of your markup right after jQuery:
 
 <code> <script src="filespath/jquery-3.2.1.min.js"></script> </code> <br>
 <code> <script src="filespath/snakeMenu-1.1.min.js"></script> </code>
   
-# Usage
+<br>  
+<h3>Usage</h3>
 
 Wrap your menu items (div, a, img, span, li etc.) with a container element (div, ul etc.). Give them classes that you set
 in the js snakeMenu cofig object:
@@ -45,3 +46,51 @@ Call the plugin function and set the css classes for your elements or use defaul
           boxItem: '.snakeBoxItem',
           boxItemData: 'boxitem',
         });
+	
+
+<br>
+<h3>Documentation</h3>
+
+<h4>&bull; Classes</h4>
+
+1. menuCont <br> - Css class for the snakeMenu container:
+<ul>
+	<li>Type: string</li>
+	<li>Default: '.snakeMenu'</li>
+</ul>
+<hr>
+
+2. menuItem <br> - Css class for the snakeMenu item:
+<ul>
+	<li>Type: string</li>
+	<li>Default: '.snakeMenuItem'</li>
+</ul>
+<hr>
+
+3. menuItemData <br> - Name of the data attribute for the snakeMenu items:
+<ul>
+	<li>Type: string</li>
+	<li>Default: 'menuitem'</li>
+</ul>
+<hr>
+
+4. boxCont <br> - Css class for the snakeBox container:
+<ul>
+	<li>Type: string</li>
+	<li>Default: '.snakeBox'</li>
+</ul>
+<hr>
+
+5. boxItem <br> - Css class for the snakeBox item:
+<ul>
+	<li>Type: string</li>
+	<li>Default: '.snakeBoxItem'</li>
+</ul>
+<hr>
+
+6. boxItemData <br> - Name of the data attribute for the snakeBox items:
+<ul>
+	<li>Type: string</li>
+	<li>Default: 'boxitem'</li>
+</ul>
+<hr>
