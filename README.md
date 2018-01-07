@@ -94,3 +94,17 @@ Call the plugin function and set the css classes for your elements or use defaul
 	<li>Default: 'boxitem'</li>
 </ul>
 <hr>
+
+7. cssMenuItemActive <br> - Css class to mark the active snakeMenu item (You have to define this class in css first):
+<ul>
+	<li>Type: string</li>
+	<li>Default: 'snm-item-active' </li>
+</ul>
+<hr>
+
+8. noActiveMenuItem <br> - Css class that mark no active snakeMenu item (item is no active when appropriate boxItem is empty)
+<ul>
+	<li>Type: string</li>
+	<li>Default: 'snakeItemNoActive' </li>
+</ul>
+<hr>
