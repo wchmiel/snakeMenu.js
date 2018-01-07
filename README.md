@@ -51,60 +51,106 @@ Call the plugin function and set the css classes for your elements or use defaul
 <br>
 <h3>Documentation</h3>
 
-<h4>&bull; Classes</h4>
+<h4>&bull; Classes</h4> 
+&nbsp;&nbsp;&nbsp;With the following options you can change every class the way you want:
 
-1. menuCont <br> - Css class for the snakeMenu container:
+1. <b>menuCont</b> <br>- Css class for the snakeMenu container:
 <ul>
-	<li>Type: string</li>
+	<li>Type: Class / Id</li>
 	<li>Default: '.snakeMenu'</li>
 </ul>
-<hr>
+<br>
 
-2. menuItem <br> - Css class for the snakeMenu item:
+2. <b>menuItem</b> <br>- Css class for the snakeMenu item:
 <ul>
-	<li>Type: string</li>
+	<li>Type: Class</li>
 	<li>Default: '.snakeMenuItem'</li>
 </ul>
-<hr>
+<br>
 
-3. menuItemData <br> - Name of the data attribute for the snakeMenu items:
+3. <b>menuItemData</b> <br>- Name of the data attribute for the snakeMenu items:
 <ul>
 	<li>Type: string</li>
 	<li>Default: 'menuitem'</li>
 </ul>
-<hr>
+<br>
 
-4. boxCont <br> - Css class for the snakeBox container:
+4. <b>boxCont</b> <br>- Css class for the snakeBox container:
 <ul>
-	<li>Type: string</li>
+	<li>Type: Class / Id</li>
 	<li>Default: '.snakeBox'</li>
 </ul>
-<hr>
+<br>
 
-5. boxItem <br> - Css class for the snakeBox item:
+5. <b>boxItem</b> <br>- Css class for the snakeBox item:
 <ul>
-	<li>Type: string</li>
+	<li>Type: Class</li>
 	<li>Default: '.snakeBoxItem'</li>
 </ul>
-<hr>
+<br>
 
-6. boxItemData <br> - Name of the data attribute for the snakeBox items:
+6. <b>boxItemData</b> <br>- Name of the data attribute for the snakeBox items:
 <ul>
 	<li>Type: string</li>
 	<li>Default: 'boxitem'</li>
 </ul>
-<hr>
+<br>
 
-7. cssMenuItemActive <br> - Css class to mark the active snakeMenu item (You have to define this class in css first):
+7. <b>cssMenuItemActive</b> <br>- Css class to mark the active snakeMenu item (You have to define this class in css first):
 <ul>
 	<li>Type: string</li>
 	<li>Default: 'snm-item-active' </li>
 </ul>
-<hr>
+<br>
 
-8. noActiveMenuItem <br> - Css class that mark no active snakeMenu item (item is no active when appropriate boxItem is empty)
+8. <b>noActiveMenuItem</b> <br>- Css class that mark no active snakeMenu item (item is no active when appropriate boxItem is empty)
 <ul>
 	<li>Type: string</li>
 	<li>Default: 'snakeItemNoActive' </li>
 </ul>
-<hr>
+<br>
+
+<h4>&bull; Options</h4> 
+&nbsp;&nbsp;&nbsp;List including all options for the snakeMenu plugin:
+
+1. <b>destroySnakeRes</b> <br>- Under this resolution the snakeMenu is diabled. (Then you can make your own menu for mobile resolutions)
+<ul>
+	<li>Type: number</li>
+	<li>Default: 767 </li>
+</ul>
+<br>
+
+2. <b>mouseDelay</b> <br>- This value defines delay beetwen a cursor enter the snakeMenu container and the snakeBox is open. This way your snakeBox won't be open when user is on snakeMenu item for less than define time. 
+<ul>
+	<li>Type: number</li>
+	<li>Default: 300 </li>
+</ul>
+<br>
+
+3. <b>boxOffsetTop</b> <br>- The value in pixels that define offset top beetwen the snakeMenu and the snakeBox (the snakeBox won't be closed when you hover that space area).
+<ul>
+	<li>Type: number</li>
+	<li>Default: 0 </li>
+</ul>
+<br>
+
+4. <b>boxOffsetBottom</b> <br>- The value in pixels that define offset bottom beetwen the snakeMenu and the snakeBox (the snakeBox won't be closed when you hover that space area).
+<ul>
+	<li>Type: number</li>
+	<li>Default: 0 </li>
+</ul>
+<br>
+
+5. <b>boxOffsetLeft</b> <br>- The value in pixels that define offset left beetwen the snakeMenu and the snakeBox (the snakeBox won't be closed when you hover that space area).
+<ul>
+	<li>Type: number</li>
+	<li>Default: 0 </li>
+</ul>
+<br>
+
+6. <b>boxOffsetRight</b> <br>- The value in pixels that define offset right beetwen the snakeMenu and the snakeBox (the snakeBox won't be closed when you hover that space area).
+<ul>
+	<li>Type: number</li>
+	<li>Default: 0 </li>
+</ul>
+<br>
