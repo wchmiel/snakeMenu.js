@@ -172,5 +172,5 @@ Call the plugin function and set the css classes for your elements or use defaul
 <br>
 <h3>Demo</h3>
 
-The sample of usege the snakeMenu.js plugin with Bootstrap navbar and animate.css animations is in the "demo" directory. You can play with it if you want ;)
+The sample of usege the snakeMenu.js plugin with Bootstrap navbar and animate.css animations is in the "demo" directory. You can play with it if you want or try it here <a href="https://www.jqueryscript.net/demo/Dropdown-Menu-jQuery-snakeMenu/">DEMO</a> ;)
 
